@@ -1,0 +1,161 @@
+@media(prefers-color-scheme: light){
+  :root{
+      --body:#313131;
+      --text:#fff;
+      --dots-active:#fff;
+      --title:#fff;
+      --link:#fff;
+      --btn-border-hover:#fff;
+      --input-bg:#313131;
+      --scrollbar: #fff;
+      --dropdown-menu: #313131;
+      --border: #313131;
+      --border-hover: #fff;
+  }
+  .logo::before{
+      content: url(../img/svg/openshop-light.svg);
+  }
+
+  .footer{
+    background: #0C0C0C;
+  }
+
+  .header__link {
+    color: var(--text);
+  }
+}
+@media (max-width:1200px){
+  .header__form{
+      margin-left: unset;
+      /* flex-wrap: wrap; */
+  }
+  .dropdown__btn{
+      padding: 18px;
+  }
+  .add__item{
+      grid-column: 4 span !important;
+      grid-row: 2 span !important;
+  }
+  .add__banner{
+      left: 25%;
+  }
+  .add__banner3{
+      top: -8%;
+  }
+  .add__banner4{
+      top: -15%;
+  }
+  .playstation__container{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .playstation__content-btn{
+    margin: 0 auto;
+  } 
+  .vr__container{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .vr__desc-btn{
+      margin: 0 auto;
+  }
+  .vr__img{
+      width: 100%;
+  }
+}
+@media (max-width:990px){
+  /* .header__input{
+      width: 250px !important;
+  } */
+  .header__input{
+    width: 140px !important;
+}
+  
+  .dropdown__btn{
+      padding: 25px 0;
+  }
+  .lap__title{
+    text-align: center;
+  }
+  .phones__title{
+    text-align: center;
+  }
+  .other__title{
+    text-align: center;
+  }
+  .footer__container{
+      flex-direction: column;
+      justify-content: center;
+  }
+  .footer__form{
+      margin: 20px 0;
+  }
+  .iphone__container{
+      flex-direction: column;
+      align-items: center;
+  }
+  .iphone__details{
+      flex-direction: row !important;
+  }
+  .iphone__desc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .iphone__buttons{
+      flex-direction: column;
+  }
+  .iohone__btn {
+      margin: 15px;
+  }
+}
+@media(max-width:767px){
+  .add__banner{
+      width: 250px;
+  }
+  .phones__cards{
+      justify-content: center !important;
+  }
+  .lap__cards{
+      justify-content: center !important;
+  }
+  .other__cards{
+    justify-content: center !important;
+  }
+}
+@media(max-width:600px){
+  .playstation__img{
+      width: 270px;
+  }
+}
+@media (max-width:460px){
+  .add__banner1{
+      width: 200px;
+      top: 25%;
+  }
+  
+}
+@media(max-width:412px){
+  .footer__form{
+      flex-direction: column;
+      align-items: center;
+  }
+  .footer__link{
+      padding: 50px 15px 0;
+  }
+}
+@media(max-width:360px){
+  .add__banner{
+      width: 200px;
+      top: 30%;
+  }
+  .footer__input{
+      width: 215px;
+      margin-bottom: 20px;
+  }
+  .iphone__buy{
+      width: 300px;
+  }
+}
